@@ -17,6 +17,16 @@ button {
   height: 40px;
   font-size: 1.8em;
   margin-left: 210px;
+  padding-top: 5px;
+}
+
+button:hover {
+  background-color: rgb(153, 14, 14);
+  color: #fff;
+  width: 250px;
+  height: 40px;
+  font-size: 1.8em;
+  padding-top: 5px;
 }
 
 .buttonPay {
@@ -28,6 +38,7 @@ button {
   margin-left: 40px;
   visibility: hidden;
   margin-top: 15px;
+  padding-bottom: 5px;
 }
 
 .buttonPay:hover {
@@ -37,14 +48,7 @@ button {
   height: 40px;
   font-size: 1.8em;
   margin-top: 15px;
-}
-
-button:hover {
-  background-color: rgb(153, 14, 14);
-  color: #fff;
-  width: 250px;
-  height: 40px;
-  font-size: 1.8em;
+  padding-bottom: 5px;
 }
 
 #leftInvoice {
