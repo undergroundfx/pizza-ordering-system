@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pizza Ordering System</title>
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<div>
+			<h1>Mario's Pizza</h1>
+		</div>
+		<div id="left">
+			<div class="menu">
+						<h3>🍕 Size</h3>
+						<label><input class="size" type="radio" name="Size" value="6.00" id="Personal Pizza" required> Personal Pizza - <strong>$6.00</strong></label><br>
+						<label><input class="size" type="radio" name="Size" value="10.00" id="Medium Pizza"> Medium Pizza - <strong>$10.00</strong></label><br>
+						<label><input class="size" type="radio" name="Size" value="14.00" id="Large Pizza"> Large Pizza - <strong>$14.00</strong></label><br>
+						<label><input class="size" type="radio" name="Size" value="16.00" id="Extra Large Pizza"> Extra Large Pizza - <strong>$16.00</strong></label><br>
+						
+					</div>
+					<div class="menu">
+						<h3>🍕 Meats</h3>
+						<p>$1 each - 1st one is included</p>
+						<label><input class="meats" type="checkbox" name="Meat" value="Pepperoni" > Pepperoni</label><br>
+						<label><input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage</label><br>
+						<label><input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon</label><br> 
+						<label><input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef</label><br>
+						<label><input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy</label><br>
+						<label><input class="meats" type="checkbox" name="Meat" value="Chicken" > Chicken<br>
+					</div>
+					<div class="menu"> 
+						<h3>🍕 Vegetables</h3>
+						<p>$1 each - 1st one is included</p>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Onions"> Onions</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Olives"> Olives</label><br> 
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Pineapple"> Pineapple</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Spinach"> Spinach</label><br>
+						<label><input class="veggies" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno
+					</div>
+					<div class="menu menu2">
+						<h3>🍕 Cheese</h3>
+						<label><input class="cheese" type="radio" name="Cheese" value="No cheese"> No cheese</label><br>
+						<label><input class="cheese" type="radio" name="Cheese" value="Regular cheese" required> Regular cheese</label><br>
+						<label><input class="cheese" type="radio" name="Cheese" value="Extra cheese"> Extra cheese - <strong>$3</strong></label><br>
+					</div>
+					<div class="menu menu2">
+						<h3>🍕 Sauce</h3>
+						<label><input class="sauce" type="radio" name="Sauce" value="No sauce"> No sauce</label><br>
+						<label><input class="sauce" type="radio" name="Sauce" value="Marinara sauce" required> Marinara sauce</label><br>
+						<label><input class="sauce" type="radio" name="Sauce" value="White sauce"> White sauce</label><br>
+						<label><input class="sauce" type="radio" name="Sauce" value="Barbeque sauce"> Barbecue sauce</label><br>
+					</div>
+					<div class="menu menu2">
+						<h3>🍕 Crust</h3>
+						<label><input class="crust" type="radio" name="Crust" value="Plain Crust" required> Plain Crust</label><br>
+						<label><input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust</label><br>
+						<label><input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust</label><br>
+						<label><input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust</label><br>
+						<label><input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust - <strong>$3</strong>
+					</div>
+					<div class="bottom">
+							<button id="button">Place Order<br><br></button>
+					</div>
+				</div>
+				<div id="right">
+				
+				<div id="leftInvoice"> </div>
+				<div id="rightInvoice"> </div>
+
+				<br clear="all">
+
+				<div id="totalText">Your total is: 
+					<span id="amount"></span>
+				</div>
+
+				<div class="bottom">
+					<button class="buttonPay">Make Payment</button>
+			</div>
+								</div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
