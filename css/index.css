@@ -1,6 +1,7 @@
 body {
   background: url('../images/pizza1.jpg') no-repeat fixed;
   background-color: #000;
+  background-size: cover;
   color: #000;
   font-size: .84em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
